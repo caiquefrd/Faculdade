@@ -1,9 +1,8 @@
-nros = "2,3,4,1,2,5"
+nros = "2,3,4,1,2,5";
 nros = nros.split(",");
 
-
-for ( i = 0; i < nros.length; i++){
-    console.log (nros[i]);
+for (i = 0; i < nros.length; i++) {
+  console.log(nros[i]);
 }
 
 /*
