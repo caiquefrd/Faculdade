@@ -1,5 +1,5 @@
 Olá, nesse repositório estarei compartilhando meus projetos desenvolvidos durante
-o curso de Desenvolvimendo de Software Multiplataforma, cursado pela Fatec Jacareí.
+o curso de Desenvolvimendo de Software Multiplataforma, pela Fatec Jacareí.
 
 As Faculdades de Tecnologia do Estado de São Paulo são instituições de ensino superior públicas brasileiras, pertencentes ao Centro Estadual de Educação Tecnológica Paula Souza, autarquia da Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia do estado de São Paulo. O Centro Paula Souza mantém 77 Faculdades de Tecnologia (Fatecs) distribuídas em 70 municípios paulistas. As Fatecs atendem mais de 90 mil alunos, matriculados nos 91 cursos de graduação tecnológica presenciais e um na modalidade à distância, que têm uma carga horária de 2.400 horas, com duração mínima de três anos.
 
