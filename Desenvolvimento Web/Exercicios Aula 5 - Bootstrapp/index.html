@@ -12,7 +12,7 @@
 <body>
 	<button type="button" class="btn btn-primary">botão</button>
 	<button type="button" class="btn btn-secondary">botão</button>
-	<div class="alert alert-primary" role="alert">
+	<div class="alert alert-primary col-xxl-2 col-xl-2 col-lg-2" role="alert">
 		Bom dia!
 	</div>
 	<div class="alert alert-secondary" role="alert">
@@ -22,7 +22,7 @@
 		Boa noite!
 		<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
 	</div>
-	<div class="container bg-primary">
+	<div class="container-sm bg-primary">	
 		100% de largura até 576px - small breakpoint
 	  </div>
 	  <div class="container-md bg-secondary">
@@ -32,13 +32,38 @@
 		100% de largura até 992px - large breakpoint
 	  </div>
 	  <div class="container-xl bg-danger">
-		100% de largura até 1200px - extra large breakpoint
+		100% de largura até 1200px - extra large break	point
 	  </div>
 	  <div class="container-xxl bg-warning">
 		100% de largura até 1400px - extra extra large breakpoint
 	  </div>
 	  <div class="container-fluid bg-info">
 		100% de largura em todas as larguras
-	  </div>	
+	  </div>
+		<div class="container">
+		  <div class="row">
+			<div class="col border">1/6 = 6 colunas</div>
+			<div class="col border">1/6 = 6 colunas</div>
+		  </div>
+		  <div class="row">
+			<div class="col border">1/3 = 4 colunas</div>
+			<div class="col border">1/3 = 4 colunas</div>
+			<div class="col border">1/3 = 4 colunas</div>
+		  </div>
+		  <div class="row">
+			<div class="col-3 border">3 colunas</div>
+			<div class="col-4 border">4 colunas</div>
+			<div class="col border">5 colunas - o que sobrou</div>
+		  </div>
+		  <div class="row">
+			<div class="col-3 border">3 colunas</div>
+			<div class="col-4 border">4 colunas</div>
+		  </div>
+		  <div class="row">
+			<div class="col-8 border">8 colunas</div>
+			<div class="col-3 border">3 colunas</div>
+			<div class="col-5 border">5 colunas</div>
+		  </div>
+		</div>	  
 </body>
 </html>
