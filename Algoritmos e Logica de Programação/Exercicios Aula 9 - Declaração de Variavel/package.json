@@ -1,9 +1,9 @@
 {
   "name": "aula",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "index": "node ./src/index.js",
     "um": " node ./src/exercicio1.js",
     "dois": " node ./src/exercicio2.js",
     "tres": "node ./src/exercicio3",
@@ -18,5 +18,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
-} 
+  "license": "ISC",
+  "description": ""
+}
