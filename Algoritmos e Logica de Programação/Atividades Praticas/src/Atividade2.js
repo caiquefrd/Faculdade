@@ -60,3 +60,35 @@ Dica: será necessário comparar se o valor ASCII do caractere está no interval
 //         console.log(placaAux);
 //     }
 // }
+
+// Exercício 6: Completar o código a seguir para imprimir na tela o somatório dos números do array.
+// Dica: será necessário converter cada elemento do array de string para inteiro.
+
+// let nros = ["19", "11", "5", "10", "20"];
+// let soma = 0;
+// for (let i = 0; i < nros.length; i++) {
+//   soma += parseInt(nros[i]);
+// }
+// console.log("Somatório:", soma);
+
+// Exercício 7: Completar o código a seguir para imprimir na tela o somatório dos números que estão na string.
+// Observação: no Exercício 6 os números estavam em um array, aqui os números estão em uma string.
+// Dica: use o método split para quebrar a string em um array de strings.
+
+// let nros = "19,11,5,10,20";
+// ____________________________________;
+// let soma = ____________;
+// for(let i = 0; i < nros.length; i++ ){
+//  soma += _________________________;
+// }
+// console.log("Somatório:", soma);
+
+// Exercício 8: Complete o código para imprimir na tela somente o 1º caractere de cada nome.
+
+let nomes = ["Pedro", "Lucy", "Ana", "Karla"];
+for (let i = 0; i < nomes.length; i++) {
+  console.log(nomes[i]);
+}
+
+
+
