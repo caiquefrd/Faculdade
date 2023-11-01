@@ -1,7 +1,7 @@
 --exercicio 1
 insert into tbaluno(id, nome) values(1, 'Ana Maria'),
 (2, 'Luiz Carlos'),
-(3, 'Maria Silva'),
+(3, 'Maria Silva'),S
 (4, 'Renato Rodrigues'),
 (5, 'Carla Santiago');
 
