@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "um": "node ./src/Atividade1.js",
-    "dois": "node ./src/Atividade2.js"
+    "dois": "node ./src/Atividade2.js",
+    "quatro": "node ./src/Atividade4.js"
   },
   "keywords": [],
   "author": "",
