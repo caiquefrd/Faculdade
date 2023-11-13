@@ -88,10 +88,10 @@
   //exercicio7
   function somar(a, b) {
     let v = []; //cria um array vazio
-    for (let i = 0; i < b; i++) {
+    for (let i = 0; i < a; i++) {
       v[i] = a[i] + b[i];
     }
-    return v;
+    return;
   }
   let a = [5, 8, 3, 4, 9, 7];
   let b = [3, 5, 9, 2, 3, 4];
