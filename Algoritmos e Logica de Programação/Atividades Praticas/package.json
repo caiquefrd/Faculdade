@@ -6,7 +6,8 @@
   "scripts": {
     "um": "node ./src/Atividade1.js",
     "dois": "node ./src/Atividade2.js",
-    "quatro": "node ./src/Atividade4.js"
+    "quatro": "node ./src/Atividade4.js",
+    "cinco": "ts-node ./src/Atividade5.ts"
   },
   "keywords": [],
   "author": "",
