@@ -16,6 +16,8 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 // soma = entrada + entrada;
 // console.log( soma );
 
+
+
 // //exercicio2
 // var idade = prompt ("entre com a idade");
 // var idade = parseInt (idade)
@@ -26,6 +28,8 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 //   console.log("de maior"); 
 // }
 
+
+
 // //exercicio3
 // let i = 0;
 // while (i < 6) {
@@ -33,6 +37,8 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 //     console.log(nro);
 //     i = i + 1
 // }
+
+
 
 // //exercicio4
 // let i = 0;
@@ -43,6 +49,7 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 //     console.log(nroInt);
 //     i = i + 1
 // }
+
 
 // //exercicio5
 // let i = 0;
@@ -55,6 +62,8 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 //         console.log(nroInt)
 //     }
 // }
+
+
 
 // //exercicio6
 // let i = 0;
@@ -80,17 +89,7 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 //     }
 // }
 
-// //exercicio8
-// let i = 0;
-// while (i < 6) {
-//     nro = Math.random();
-//     nroAux = nro * 100;
-//     nroInt = Math.floor(nroAux);
-//     if (nroInt % 5 == 0 && nroInt % 3 == 0) {
-//         console.log(nroInt);
-//         i = i + 1
-//     }
-// }
+
 
 // //exercicio8
 // let i = 0;
@@ -103,6 +102,8 @@ const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vsco
 //         i = i + 1
 //     }
 // }
+
+
 
 /* exercicio9: Altere o código do Exercício 6 para imprimir na tela seis números aleatórios menores que vinte ou 
  maiores que 80. */
