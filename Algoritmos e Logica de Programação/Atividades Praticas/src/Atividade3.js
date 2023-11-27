@@ -175,7 +175,7 @@
 }
 
 {
-    //Exercicio 10:
+    //Exercicio 10: apontar fatorial negativo inexistente
     function fatorial(nro) {
         if (nro < 0){  //define que não pode haver fatorial de numero negativo
             return NaN

@@ -9,8 +9,8 @@
 :bolean[] -> define o tipo de campo para array booleano
 */
 
-//Exercicio 1 : receber um array de numeros inteiros separados por virgula e converter em array
 
+//Exercicio 1 : receber um array de numeros inteiros separados por virgula e converter em array
 // function converter(entrada: string): number[] {
 //     const textos: string[] = entrada.split(",");
 //     const nros: number[] = []; //cria um array vazio do tipo number
@@ -28,8 +28,8 @@
 
 
 
-//Exercicio2 : formatar a string de endereco para uma extrutura JSON
 
+//Exercicio2 : formatar a string de endereco para uma extrutura JSON
 // function formatar(entrada: string) {
 //     const textos = entrada.split(";");
 //     const obj = {
@@ -47,8 +47,8 @@
 // console.log(resposta);
 
 
-//Exercicio 3 : criar a quantidade solicitada de numeros aleatórios
 
+//Exercicio 3 : criar a quantidade solicitada de numeros aleatórios
 // function aleatorio(quantidade: number) {
 //     const itens: number[] = [];
 //     for (let i = 0; i < quantidade; i++) {
@@ -61,8 +61,8 @@
 // console.log(nros);
 
 
-// Exercicio 4 : gerar uma quantidade de numeros aleatorios dentro de um intervalo
 
+// Exercicio 4 : gerar uma quantidade de numeros aleatorios dentro de um intervalo
 // function aleatorio(quantidade: number, min: number, max: number) {
 //     const itens: number[] = [];
 //     const intervalo = max - min; //institui o intervalo dos numeros
@@ -76,8 +76,8 @@
 // console.log(nros);
 
 
-//Exercicio 5 : ordenar o resultado do exercicio 4
 
+//Exercicio 5 : ordenar o resultado do exercicio 4
 // function aleatorio(quantidade: number, min: number, max: number) {
 //     const itens: number[] = [];
 //     const intervalo = max - min; //institui o intervalo dos numeros
@@ -91,8 +91,8 @@
 // console.log(nros);
 
 
-//Exercicio 6 : receber um array com numeros inteiros e retortar um array apenas com os que forem pares.
 
+//Exercicio 6 : receber um array com numeros inteiros e retortar um array apenas com os que forem pares.
 // function pares(elementos: number[]) {
 //     const itens: number[] = [];
 //     for (let i = 0; i < elementos.length; i++) {
@@ -108,8 +108,8 @@
 // console.log(resultado)
 
 
-//Exercicio 7 : alterar o exercicio anterior para a função receber um segundo parametro, e retornar apenas os valores multiplos desse parametro
 
+//Exercicio 7 : alterar o exercicio anterior para a função receber um segundo parametro, e retornar apenas os valores multiplos desse parametro
 // function multiplo(elementos: number[], parametro:number) {
 //     const itens: number[] = [];
 //     for (let i = 0; i < elementos.length; i++) {
@@ -125,8 +125,8 @@
 // console.log(resultado)
 
 
-//Exercicio 8 : adicionar mais um parâmetro ao exercício anterior
 
+//Exercicio 8 : adicionar mais um parâmetro ao exercício anterior
 // function multiplo(elementos: number[], parametro1: number, parametro2: number) {
 //     const itens: number[] = [];
 //     for (let i = 0; i < elementos.length; i++) {
@@ -142,8 +142,9 @@
 // console.log(resultado)
 
 
-//Exercicio 9 : mostrar apenas a quantidade de multiplos do exercicio anterior
 
+
+//Exercicio 9 : mostrar apenas a quantidade de multiplos do exercicio anterior
 // function contaMultiplo(elementos: number[], parametro1: number, parametro2: number) {
 //     let quantidade:number = 0;
 //     for (let i = 0; i < elementos.length; i++) {
@@ -158,8 +159,9 @@
 // const resultado = contaMultiplo(nros, 4, 5);
 // console.log(resultado)
 
-//Exercicio 10 : alterar o codigo anterior para mostra o resultado em extrutua JSON
 
+
+//Exercicio 10 : alterar o codigo anterior para mostra o resultado em extrutua JSON
 function contaMultiplo(elementos: number[], parametro1: number, parametro2: number) {
     let quantidade:number = 0;
     for (let i = 0; i < elementos.length; i++) {
