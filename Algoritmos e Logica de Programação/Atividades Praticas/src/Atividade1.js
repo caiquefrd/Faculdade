@@ -7,7 +7,7 @@ Objetivo:
 • Fazer uso de alguns métodos da classe Math.
 */
 
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); //--> possibilita gerar prompts no vscode 
 
 
 // //exercicio1
