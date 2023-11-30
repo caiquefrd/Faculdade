@@ -30,13 +30,14 @@ console.log("Notas ajustadas:", notaAjustadaJSON(pontuacoes));
 //function media
 function mediaFinal(pontuacoes) {
   console.log(notaAjustadaJSON(pontuacoes));
+  
   let notas = notaAjustadaJSON(pontuacoes);
   let somatorio = 0;
 
   for (let i = 0; i < notas.length; i++) {
     somatorio += pontuacoes[i].nota;
 
-    media = somatorio / pontuacoes.length;
+    media = somatorio / pontuacoes.length; //pega o
   }
   return media;
 }
