@@ -1,10 +1,10 @@
 function notaFinal(conceitos) {
-  let somatorio = 0;
+  let somatorio = 0; //declara a variavel vazia 
 
-  for (let i = 0; i < conceitos.length; i++) {
+  for (let i = 0; i < conceitos.length; i++) {  //percorre o array usando a variavel contadora, comparando o numero da variavel com a posição do array, multiplicando os conceitos e somando as notas
     somatorio += conceitos[i].nota * conceitos[i].peso;
   }
-  return somatorio;
+  return somatorio; //retorna o somatorio do for
 }
 
 const conceitos = [

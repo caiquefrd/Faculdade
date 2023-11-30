@@ -1,13 +1,13 @@
 function notaAjustadaJSON(pontuacoes) {
-  let menor = pontuacoes[0].nota;
+  let menorNota = pontuacoes[0].nota; //cria a variavel vazia
 
-  for (let i = 1; i < pontuacoes.length; i++) {
-    if (pontuacoes[i].nota < menor) {
-      menor = pontuacoes[i].nota;
+  for (let i = 0; i < pontuacoes.length; i++) { //percorre o array procurando a menorNota nota e a colocar numa variavel chamada menorNota
+    if (pontuacoes[i].nota < menorNota) {
+      menorNota = pontuacoes[i].nota;
     }
   }
-  for (let i = 0; i < pontuacoes.length; i++) {
-    if (pontuacoes[i].nota == menor) {
+  for (let i = 0; i < pontuacoes.length; i++) { //percorre novamente o array e procura a posição que bater com o valor da variavel
+    if (pontuacoes[i].nota == menorNota) {
       pontuacoes[i].nota = 6;
       break;
     }
@@ -24,3 +24,11 @@ const pontuacoes = [
 ];
 
 console.log("Notas ajustadas:", notaAjustadaJSON(pontuacoes));
+
+
+
+
+
+
+
+
