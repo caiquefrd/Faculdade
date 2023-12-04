@@ -9,5 +9,4 @@ As Faculdades de Tecnologia do Estado de São Paulo são instituições de ensin
 
  Fique a vontade para navegar entre os tópicos de cada disciplina, onde deixarei separado as atividades
  desenvolvidas em sala de aula. Também deixarei listado a nossa API, uma atividade central do curso que
- consiste basicamente na formulação de projetos reais requisitados pela instituição para desenvolver as habilidades dos alunos, podendo aprender na prática como as linguagens de programação, marcação e o mercado
- funcionam. 
+ consiste basicamente na formulação de projetos reais requisitados pela instituição para desenvolver as habilidades dos alunos, podendo aprender na prática como o mercado funciona
